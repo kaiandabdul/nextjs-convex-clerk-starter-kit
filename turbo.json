@@ -1,0 +1,20 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"]
+    },
+    "check-types": {
+      "dependsOn": ["^check-types"]
+    },
+    "next:dev": {
+      "dependsOn": [],
+      "outputs": []
+    },
+    "convex:dev": {
+      "dependsOn": [],
+      "outputs": []
+    }
+  },
+  "ui": "tui"
+}
